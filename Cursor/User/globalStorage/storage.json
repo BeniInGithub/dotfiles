@@ -1,0 +1,65 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "167be401f612017a1cb31a393fcf6fc427c58330f417fa062b7d4c6895dd7bbe",
+    "telemetry.machineId": "aecae8a975a477da9bbba75ad504c93aa8cb511d6f4239661c4a3d67c6a826ee",
+    "telemetry.devDeviceId": "d61df1e9-fe22-489c-b605-80e696fa279a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/beni/Code/learning/flight-deals-finder"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/beni/Code/learning/flight-deals-finder": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowControlHeight": 50,
+    "theme": "vs-dark",
+    "themeBackground": "#1a1a1a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(204, 204, 204, 0.87)",
+            "background": "#1a1a1a",
+            "editorBackground": "#1a1a1a",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/beni/Code/learning/flight-deals-finder",
+            "backupPath": "/home/beni/.config/Cursor/Backups/778a1d786817a89872ccb0859842996e",
+            "uiState": {
+                "mode": 0,
+                "x": 960,
+                "y": 27,
+                "width": 960,
+                "height": 1053,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    }
+}

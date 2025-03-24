@@ -1,0 +1,117 @@
+2025-03-22 22:18:43.592 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-03-22 22:18:43.592 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-03-22 22:18:43.592 [info] Experiment 'pythonTestAdapter' is active
+2025-03-22 22:18:43.600 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/beni/Code/learning/flight-deals-finder/.pixi/envs'
+	at Object.readdirSync (node:fs:1507:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:13703)
+	at /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/beni/Code/learning/flight-deals-finder/.pixi/envs'
+}
+2025-03-22 22:18:43.600 [error] Dir "/home/beni/Code/learning/flight-deals-finder/.pixi/envs" is not watchable (directory does not exist)
+2025-03-22 22:18:43.623 [info] Default formatter is set to null for workspace /home/beni/Code/learning/flight-deals-finder
+2025-03-22 22:18:43.627 [info] Starting Environment refresh
+2025-03-22 22:18:43.627 [info] Searching for interpreters in posix paths locator
+2025-03-22 22:18:43.630 [info] Searching for pyenv environments
+2025-03-22 22:18:43.630 [info] Searching for conda environments
+2025-03-22 22:18:43.630 [info] Searching for global virtual environments
+2025-03-22 22:18:43.630 [info] Searching for custom virtual environments
+2025-03-22 22:18:43.633 [info] Finished searching for custom virtual envs: 5 milliseconds
+2025-03-22 22:18:43.634 [info] Finished searching for global virtual envs: 6 milliseconds
+2025-03-22 22:18:43.638 [info] Found: /bin/python --> /bin/python3.13
+2025-03-22 22:18:43.639 [info] Found: /bin/python3 --> /bin/python3.13
+2025-03-22 22:18:43.639 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-03-22 22:18:43.654 [info] Found: /sbin/python --> /sbin/python3.13
+2025-03-22 22:18:43.655 [info] Finished searching for pyenv environments: 28 milliseconds
+2025-03-22 22:18:43.656 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-03-22 22:18:43.656 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-03-22 22:18:43.660 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-03-22 22:18:43.660 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-03-22 22:18:43.661 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-03-22 22:18:43.673 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-03-22 22:18:43.673 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-03-22 22:18:43.674 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-03-22 22:18:43.674 [info] Found: /home/linuxbrew/.linuxbrew/bin/python3 --> /home/linuxbrew/.linuxbrew/Cellar/python@3.13/3.13.2/bin/python3.13
+2025-03-22 22:18:43.674 [info] Found: /home/linuxbrew/.linuxbrew/bin/python3.13 --> /home/linuxbrew/.linuxbrew/Cellar/python@3.13/3.13.2/bin/python3.13
+2025-03-22 22:18:43.689 [info] > hatch env show --json
+2025-03-22 22:18:43.689 [info] cwd: .
+2025-03-22 22:18:43.695 [info] > pixi --version
+2025-03-22 22:18:43.696 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2025-03-22 22:18:43.700 [info] > conda info --json
+2025-03-22 22:18:43.707 [info] > pyenv which python
+2025-03-22 22:18:43.707 [info] cwd: .
+2025-03-22 22:18:43.711 [info] > ./.venv/bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.716 [info] > ~/.pyenv/versions/3.11.11/bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.722 [info] Finished searching for interpreters in posix paths locator: 95 milliseconds
+2025-03-22 22:18:43.723 [info] Environments refresh paths discovered (event): 97 milliseconds
+2025-03-22 22:18:43.723 [info] Environments refresh paths discovered: 97 milliseconds
+2025-03-22 22:18:43.741 [info] > ~/.pyenv/versions/3.12.9/bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.778 [info] > /bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.791 [info] > /sbin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.802 [info] > /usr/bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.811 [info] > /usr/sbin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.825 [info] > /home/linuxbrew/.linuxbrew/bin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:43.842 [info] Environments refresh finished (event): 216 milliseconds
+2025-03-22 22:18:43.846 [info] Environment refresh took 219 milliseconds
+2025-03-22 22:18:43.847 [error] Failed to get conda envs from environments.txt [TypeError: e.splitLines is not a function
+	at /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:553611
+	at async /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:553561
+	at async Promise.all (index 2)
+	at async /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:553282
+	at async w.sendTelemetryImpl (/home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:552673)]
+2025-03-22 22:18:43.851 [warning] could not find a pixi interpreter for the interpreter at /home/beni/Code/learning/flight-deals-finder/.venv/bin/python
+2025-03-22 22:18:44.010 [info] Shell integration status changed, can confirm it's working.
+2025-03-22 22:18:44.011 [warning] could not find a pixi interpreter for the interpreter at /home/beni/Code/learning/flight-deals-finder/.venv/bin/python
+2025-03-22 22:18:44.013 [info] Python interpreter path: ./.venv/bin/python
+2025-03-22 22:18:44.020 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-03-22 22:18:44.020 [info] shell: zsh
+2025-03-22 22:18:44.051 [info] > ~/.pyenv/versions/3.11.11/bin/python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-03-22 22:18:44.051 [info] shell: zsh
+2025-03-22 22:18:44.056 [info] > /bin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.059 [info] > /sbin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.066 [info] Setting environment variable SHEETY_USERNAME in collection to bedobeni {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable SHEETY_PASSWORD in collection to 2011 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable SHEETY_PRICES_ENDPOINT in collection to https://api.sheety.co/a2f86dad3a3993b8bbffe3a6c39c783c/flightDeals/prices {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable SHEETY_USERS_ENDPOINT in collection to https://api.sheety.co/a2f86dad3a3993b8bbffe3a6c39c783c/flightDeals/users {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable AMADEUS_API_KEY in collection to GMZ8nF5xAmqbAYJ1yh0dG7xT20aL0WoP {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable AMADEUS_SECRET in collection to X6HqsUUybcogXlNa {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Prepending environment variable PATH in collection with /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh:/home/beni/Code/learning/flight-deals-finder/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable VIRTUAL_ENV in collection to /home/beni/Code/learning/flight-deals-finder/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to .venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.066 [info] Send text to terminal: /home/beni/.pyenv/versions/3.11.11/bin/python /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariablesToFile.py /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh/envVars.txt
+2025-03-22 22:18:44.076 [info] > /usr/bin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.081 [info] > /usr/sbin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.100 [info] > /usr/bin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.105 [info] > /bin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.121 [info] > /usr/sbin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.126 [info] > /sbin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-03-22 22:18:44.853 [warning] could not find a pixi interpreter for the interpreter at /home/beni/Code/learning/flight-deals-finder/.venv/bin/python
+2025-03-22 22:18:44.859 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-03-22 22:18:44.859 [info] shell: zsh
+2025-03-22 22:18:44.878 [info] Setting environment variable SHEETY_USERNAME in collection to bedobeni {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable SHEETY_PASSWORD in collection to 2011 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable SHEETY_PRICES_ENDPOINT in collection to https://api.sheety.co/a2f86dad3a3993b8bbffe3a6c39c783c/flightDeals/prices {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable SHEETY_USERS_ENDPOINT in collection to https://api.sheety.co/a2f86dad3a3993b8bbffe3a6c39c783c/flightDeals/users {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable AMADEUS_API_KEY in collection to GMZ8nF5xAmqbAYJ1yh0dG7xT20aL0WoP {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable AMADEUS_SECRET in collection to X6HqsUUybcogXlNa {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Prepending environment variable PATH in collection with /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh:/home/beni/Code/learning/flight-deals-finder/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable VIRTUAL_ENV in collection to /home/beni/Code/learning/flight-deals-finder/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.878 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to .venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:18:44.982 [info] Starting Pylance language server.
+2025-03-22 22:26:41.936 [info] Discover tests for workspace name: undefined - uri: /home/beni/.config/Cursor/User/settings.json

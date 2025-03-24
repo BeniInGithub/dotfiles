@@ -1,0 +1,98 @@
+2025-03-22 22:17:52.459 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:17:58.055 [info] Getting Manifest... pmndrs.pmndrs
+2025-03-22 22:17:58.349 [info] Installing extension: pmndrs.pmndrs {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"}}
+2025-03-22 22:17:58.381 [info] Started downloading extension: pmndrs.pmndrs 0.3.7 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-pmndrs.pmndrs-0.3.7
+2025-03-22 22:17:58.927 [info] Extracted extension to file:///home/beni/.cursor/extensions/pmndrs.pmndrs-0.3.7: pmndrs.pmndrs
+2025-03-22 22:17:58.931 [info] Renamed to /home/beni/.cursor/extensions/pmndrs.pmndrs-0.3.7
+2025-03-22 22:17:58.943 [info] Extension installed successfully: pmndrs.pmndrs vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:17:59.011 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:18:32.675 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:18:33.413 [info] Getting Manifest... ms-python.python
+2025-03-22 22:18:35.313 [info] Getting Manifest... ms-vscode.cpptools
+2025-03-22 22:18:37.382 [info] Getting Manifest... esbenp.prettier-vscode
+2025-03-22 22:18:38.487 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"}}
+2025-03-22 22:18:38.539 [info] Installing extension: ms-vscode.cpptools {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"}}
+2025-03-22 22:18:38.580 [info] Started downloading extension: ms-vscode.cpptools 1.23.6 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-ms-vscode.cpptools-1.23.6-linux-x64
+2025-03-22 22:18:38.868 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"}}
+2025-03-22 22:18:38.908 [info] Started downloading extension: esbenp.prettier-vscode 11.0.0 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-esbenp.prettier-vscode-11.0.0
+2025-03-22 22:18:39.600 [info] Extracted extension to file:///home/beni/.cursor/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2025-03-22 22:18:39.615 [info] Renamed to /home/beni/.cursor/extensions/esbenp.prettier-vscode-11.0.0
+2025-03-22 22:18:39.629 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:18:39.698 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:18:40.034 [info] Getting Manifest... ms-python.vscode-pylance
+2025-03-22 22:18:40.068 [info] Getting Manifest... ms-python.debugpy
+2025-03-22 22:18:40.155 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-03-22 22:18:40.156 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-03-22 22:18:40.163 [info] Started downloading extension: ms-python.python 2024.12.3 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.python-2024.12.3-linux-x64
+2025-03-22 22:18:40.163 [info] Started downloading extension: ms-python.vscode-pylance 2024.8.1 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.vscode-pylance-2024.8.1
+2025-03-22 22:18:40.163 [info] Started downloading extension: ms-python.debugpy 2024.6.0 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.debugpy-2024.6.0-linux-x64
+2025-03-22 22:18:41.790 [info] Extracted extension to file:///home/beni/.cursor/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2025-03-22 22:18:41.799 [info] Renamed to /home/beni/.cursor/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2025-03-22 22:18:41.810 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:18:41.916 [info] Extracted extension to file:///home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64: ms-python.python
+2025-03-22 22:18:41.947 [info] Renamed to /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64
+2025-03-22 22:18:42.547 [info] Extracted extension to file:///home/beni/.cursor/extensions/ms-vscode.cpptools-1.23.6-linux-x64: ms-vscode.cpptools
+2025-03-22 22:18:42.560 [info] Renamed to /home/beni/.cursor/extensions/ms-vscode.cpptools-1.23.6-linux-x64
+2025-03-22 22:18:42.577 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:18:42.641 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:18:43.122 [info] Extracted extension to file:///home/beni/.cursor/extensions/ms-python.vscode-pylance-2024.8.1: ms-python.vscode-pylance
+2025-03-22 22:18:43.234 [info] Renamed to /home/beni/.cursor/extensions/ms-python.vscode-pylance-2024.8.1
+2025-03-22 22:18:43.246 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:18:43.246 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:18:43.246 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:18:43.313 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-22 22:26:37.602 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2025-03-22 22:26:37.697 [info] Installing extension: vscode-icons-team.vscode-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"donotVerifySignature":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/beni/.cursor/extensions/extensions.json","path":"/home/beni/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.47.9","date":"2025-03-21T20:17:02.110Z","vscodeVersion":"1.96.2"}}
+2025-03-22 22:26:37.750 [info] Started downloading extension: vscode-icons-team.vscode-icons 12.11.0 file:///home/beni/.config/Cursor/CachedExtensionVSIXs/cursor-vscode-icons-team.vscode-icons-12.11.0
+2025-03-22 22:26:38.418 [info] Extracted extension to file:///home/beni/.cursor/extensions/vscode-icons-team.vscode-icons-12.11.0: vscode-icons-team.vscode-icons
+2025-03-22 22:26:38.435 [info] Renamed to /home/beni/.cursor/extensions/vscode-icons-team.vscode-icons-12.11.0
+2025-03-22 22:26:38.449 [info] Extension installed successfully: vscode-icons-team.vscode-icons vscode-userdata:/home/beni/.cursor/extensions/extensions.json
+2025-03-22 22:26:38.515 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/beni/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorOFjliC/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)

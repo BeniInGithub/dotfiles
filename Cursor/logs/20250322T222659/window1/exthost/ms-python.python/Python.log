@@ -1,0 +1,55 @@
+2025-03-22 22:27:01.473 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-03-22 22:27:01.473 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-03-22 22:27:01.473 [info] Experiment 'pythonTestAdapter' is active
+2025-03-22 22:27:01.473 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/beni/Code/learning/flight-deals-finder/.pixi/envs'
+	at Object.readdirSync (node:fs:1507:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:13703)
+	at /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/beni/Code/learning/flight-deals-finder/.pixi/envs'
+}
+2025-03-22 22:27:01.473 [error] Dir "/home/beni/Code/learning/flight-deals-finder/.pixi/envs" is not watchable (directory does not exist)
+2025-03-22 22:27:01.473 [info] Default formatter is set to null for workspace /home/beni/Code/learning/flight-deals-finder
+2025-03-22 22:27:01.473 [info] Python interpreter path: ./.venv/bin/python
+2025-03-22 22:27:01.530 [info] > pyenv which python
+2025-03-22 22:27:01.530 [info] cwd: .
+2025-03-22 22:27:01.960 [info] > pixi --version
+2025-03-22 22:27:01.960 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2025-03-22 22:27:01.960 [warning] could not find a pixi interpreter for the interpreter at /home/beni/Code/learning/flight-deals-finder/.venv/bin/python
+2025-03-22 22:27:01.988 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-03-22 22:27:01.988 [info] shell: zsh
+2025-03-22 22:27:02.028 [info] > ~/.pyenv/versions/3.11.11/bin/python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-03-22 22:27:02.028 [info] shell: zsh
+2025-03-22 22:27:02.041 [info] Setting environment variable SHEETY_USERNAME in collection to bedobeni {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable SHEETY_PASSWORD in collection to 2011 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable SHEETY_PRICES_ENDPOINT in collection to https://api.sheety.co/a2f86dad3a3993b8bbffe3a6c39c783c/flightDeals/prices {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable SHEETY_USERS_ENDPOINT in collection to https://api.sheety.co/a2f86dad3a3993b8bbffe3a6c39c783c/flightDeals/users {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable AMADEUS_API_KEY in collection to GMZ8nF5xAmqbAYJ1yh0dG7xT20aL0WoP {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable AMADEUS_SECRET in collection to X6HqsUUybcogXlNa {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Prepending environment variable PATH in collection with /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh:/home/beni/Code/learning/flight-deals-finder/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable VIRTUAL_ENV in collection to /home/beni/Code/learning/flight-deals-finder/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.041 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to .venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-03-22 22:27:02.042 [info] Send text to terminal: /home/beni/.pyenv/versions/3.11.11/bin/python /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariablesToFile.py /home/beni/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh/envVars.txt
+2025-03-22 22:27:02.793 [info] Starting Pylance language server.
+2025-03-22 22:34:38.280 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
+2025-03-22 22:34:41.832 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
+2025-03-22 22:34:43.758 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
+2025-03-22 22:34:45.193 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
+2025-03-22 22:34:48.760 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
+2025-03-22 22:34:49.104 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
+2025-03-22 22:34:51.040 [info] Discover tests for workspace name: flight-deals-finder - uri: /home/beni/Code/learning/flight-deals-finder/main.py
